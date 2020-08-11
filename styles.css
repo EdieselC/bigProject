@@ -1,0 +1,22 @@
+header{
+    color: white;
+    font-size: 72px;
+    font-family: 'Antic Slab', serif;
+    text-align: center;
+}
+body{
+    text-align: center;
+    background-color: black;
+}
+#disclaimer{
+    color: white;
+    font-size: 48px;
+    line-height: 100px;
+    font-family: 'Antic Slab', serif;
+}
+
+button{
+    color: red;
+    background-color: black;
+    font-size: 20px;
+}
