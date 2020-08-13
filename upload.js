@@ -90,19 +90,19 @@ function updateDB(event){
 database.on("child_added", addMessageToBoard);
 
 // .on is an event listener that listens to when data is added
- function addMessageToBoard(rowData) {//call back function
-    let row = rowData.val();
-    console.log(row);
+//  function addMessageToBoard(rowData) {//call back function
+//     let row = rowData.val();
+//     console.log(row);
 
-    let number1 =document.querySelector(".allMessages");
-    let newP = document.createElement("p");
-    newP.innerText = row.NAME + ":" + row.MESSAGE;
-    number1.appendChild(newP);
-
-
+//     let number1 =document.querySelector(".allMessages");
+//     let newP = document.createElement("p");
+//     newP.innerText = row.NAME + ":" + row.MESSAGE;
+//     number1.appendChild(newP);
 
 
- }
+
+
+//}
 
 
 

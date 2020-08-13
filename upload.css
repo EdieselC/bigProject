@@ -6,11 +6,15 @@
     --addedPadding: 10px;
 }
 
+body{
+    font-family: 'Antic Slab', serif;
+}
 html,
 body,
 h1,
 p {
     margin: 0;
+    
 }
 
 body {
@@ -18,24 +22,24 @@ body {
     flex-direction: column;
     align-items: center;
     height: 100vh;
-    background-color: var(--primaryDark);
+    background-image: url("assets/black.jpg");
 }
 
 h1,
 label,
 #submitButton {
-    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Antic Slab', serif;
     font-weight: bold;
 }
 
 input,
 .allMessages>p {
-    font-family: 'Gudea', sans-serif;
+    font-family: 'Antic Slab', serif;
 }
 
 h1 {
     font-size: 45px;
-    color: var(--accent);
+    color: white;
     text-align: center;
 }
 
@@ -44,21 +48,20 @@ h1 {
     margin-top: 15px;
     width: calc(60% + var(--addedPadding)*2);
     padding: var(--addedPadding);
-    border: 2px solid var(--accent);
-    background-color: var(--primaryLight);
-    color: var(--alternate);
+    border: 5px solid #2a2a2a ;
+    background-color: #333333;
+    color: white;
     overflow-y: scroll;
     overflow-wrap: break-word;
     box-sizing: border-box;
     display: grid;
     grid-auto-rows: min-content;
     grid-gap: 5px;
+    font-size: 32px;
+    font-family: 'Antic Slab', serif;
 }
 
-.allMessages>p {
-    text-indent: -2em;
-    margin-left: 2em;
-}
+
 
 .userContainer {
     margin: 20px 0 40px 0;
@@ -69,15 +72,15 @@ h1 {
 
 label {
     font-size: 1.3em;
-    color: black var(--primaryDark);
+    color:white;
 }
 
 input {
     font-size: 1.3em;
-    background: none;
+    background: #333333;
     border: unset;
     border-bottom: var(--alternate) 2px solid;
-    caret-color: var(--accent);
+    caret-color: #333333;
     color:var(--alternate);
 }
 
@@ -109,16 +112,16 @@ form {
 }
 
 #submitButton {
-    color: black var(--primaryDark);
-    background-color: var(--accent);
+    color: black ;
+    background-color: white;
     font-size: 1.3em;
     transition: color 300ms ease-in, background-color 300ms ease-in;
     cursor: pointer;
 }
 
 #submitButton:hover {
-    background-color: var(--primaryDark);
-    color: var(--accent);
+    background-color: black;
+    color: white;
 }
 
 #submitButton:focus {
