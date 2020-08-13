@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UPLOAD</title>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.17.2/firebase.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDTF3CnifqcSYiHK-XNCP9wYcxBe92YGes",
+    authDomain: "project-c8a69.firebaseapp.com",
+    databaseURL: "https://project-c8a69.firebaseio.com",
+    projectId: "project-c8a69",
+    storageBucket: "project-c8a69.appspot.com",
+    messagingSenderId: "212803122151",
+    appId: "1:212803122151:web:4f8589a3b5380ac73bc342"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+    <!-- <script src="stories.js" defer></script> -->
+    <script src="upload.js" defer></script>
+         <link rel="stylesheet" href="upload.css">
+</head>
+<body>
+    
+</body>
+</html>
+
+<body>
+
+    <!--Add your name-->
+    <h1>STORY SUBMISSION</h1>
+
+    <!--This div will be populated with messages-->
+    <div class="allMessages">
+        
+    </div>
+    
+    <!--For user to input messages-->
+    <div class="userContainer">
+        <form>
+            <div class="inputContainer">
+                <div class="singleInput">
+                    <label for="username">Your name(NOT REQUIRED):</label>
+                    <input id="username" type="text">
+                </div>
+                <div class="singleInput">
+                    <label for="message">STORY:</label>
+                    <input id="message" type="text">
+                </div>
+            </div>
+            <button id="submitButton">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

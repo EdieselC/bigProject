@@ -1,18 +1,10 @@
-/*:root{
-    --primary:#EAE8FF;
-    --primaryDark:#fffdfd;
-    --light:#cf5899;
-    --accent:#c0ffb0;
-    --alternate: #623f5f;
+:root {
+    --primaryDark: #184a96;
+    --primaryLight: #dfdcbb;
+    --accent: #E3B23C;
+    --alternate: #593F62;
     --addedPadding: 10px;
-} */
-:root{
-    --primary:#EAE8FF;
-    --primaryDark:#2D3142;
-    --light:#D8D5DB;
-    --accent:#B0D7FF;
 }
-
 
 body{
     margin:0;
@@ -96,11 +88,12 @@ form {
     
     }
     .userContainer{
-    height: 100vh;
+     height: 80vh; 
     width: 100vw;
     display: flex;
   align-items: flex-end;
   justify-content: center;
+  padding-bottom: 8rem;
   
 }
 
@@ -110,7 +103,7 @@ form {
 }
 .main-container{
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;

@@ -1,16 +1,26 @@
+
 body{
     background-image: url("assets/background.jpg");
 }
 
 header{
     color:  #ff6961;
+    font-size: 72px;
+    font-family: 'Antic Slab', serif;
+    text-align: center;
 }
 
-button{
+
+#Stories{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.inputs{
     background-color:#333333;
     width: 250px;
     height: 250px;
-    overflow: hidden;
+    overflow-y: scroll;
     border: solid;
     border-color: #2a2a2a;
     border-radius: 20px;
@@ -19,7 +29,7 @@ button{
     padding-right:15px;
 }
 
-button:hover{
+.inputs:hover{
     width: 300px;
     height: 300px;
 }

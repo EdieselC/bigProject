@@ -1,3 +1,10 @@
+:root {
+    --primaryDark: #184a96;
+    --primaryLight: #dfdcbb;
+    --accent: #E3B23C;
+    --alternate: #593F62;
+    --addedPadding: 10px;
+}
 header{
     color: white;
     font-size: 72px;
